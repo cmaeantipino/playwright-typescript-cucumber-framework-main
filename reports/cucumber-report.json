@@ -1,0 +1,149 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "playwright-get-started-website;smoke-test",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Smoke Test",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 271118821
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the Playwright Get Started page",
+            "match": {
+              "location": "src/steps/playwright-website.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 457037241
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click the \"VS Code Extension\" link",
+            "match": {
+              "location": "src/steps/playwright-website.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 553140174
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the page title should contain \"Playwright\"",
+            "match": {
+              "location": "src/steps/playwright-website.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108765809
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the \"VS Code\" heading",
+            "match": {
+              "location": "src/steps/playwright-website.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26082750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the \"Introduction\" heading",
+            "match": {
+              "location": "src/steps/playwright-website.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20042500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the \"Prerequisites\" heading",
+            "match": {
+              "location": "src/steps/playwright-website.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11710392
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the \"Getting Started\" heading",
+            "match": {
+              "location": "src/steps/playwright-website.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12390862
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be able to play the \"Watch Getting Started with\"",
+            "match": {
+              "location": "src/steps/playwright-website.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108405951
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24484596
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "playwright-get-started-website",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Playwright Get Started Website",
+    "tags": [],
+    "uri": "src/features/smoke-test.feature"
+  }
+]

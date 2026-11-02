@@ -8,7 +8,7 @@ node_modules/
 /playwright/.auth/
 
 # Cucumber reports
-/reports/
+#/reports/
 
 # TypeScript build output
 /dist/
