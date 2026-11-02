@@ -1,0 +1,26 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node -e \"const fs=require('fs'); if(!fs.existsSync('reports/screenshots')){fs.mkdirSync('reports/screenshots',{recursive:true})}\"",
+    "test": "cucumber-js",
+    "posttest": "node src/support/report-generator.js",
+    "test:headed": "set HEADLESS=false && cucumber-js",
+    "test:tags": "cucumber-js --tags",
+    "report": "node src/support/report-generator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0",
+    "multiple-cucumber-html-reporter": "^4.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
